@@ -13,7 +13,7 @@ qr = qrcode.QRCode(
 qr.add_data("Hello Ubaid")
 qr.make(fit=True)
 
-# Generate a QR code image
+# Generate a QR code images
 qr_img = qr.make_image(fill_color="aqua", back_color="white")  # Using white background
 
 # Open and resize a background image

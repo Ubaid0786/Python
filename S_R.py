@@ -8,12 +8,12 @@ def restart_time():
     os.system("shutdown /r /t 20")
     
 def logout():
-    os.system("shutdown -l")  # Corrected the shutdown command for logout
+    os.system("shutdown -l")
     
 def shut_down():
      os.system("shutdown /s /t 1")
     
-st = Tk()  # Corrected the case of Tk()
+st = Tk() 
 st.title("shutDown App")
 st.geometry("500x500")
 st.config(bg="grey")
